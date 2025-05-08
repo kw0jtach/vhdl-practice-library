@@ -96,9 +96,8 @@ This repository contains a week-by-week breakdown of a VHDL training course focu
 ## Tools and Simulation
 
 You are encouraged to use tools like:
-- ModelSim / QuestaSim for simulation
-- Quartus or Vivado for synthesis and implementation
-- GTKWave for waveform visualization
+- Vivado for synthesis and implementation
+- GTKWave for waveform visualization if you don't want to use Vivado
 
 ---
 
