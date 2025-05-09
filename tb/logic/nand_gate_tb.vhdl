@@ -4,7 +4,7 @@ use ieee.std_logic_1164.all;
 entity nand_gate_tb is
 end nand_gate_tb;
 
-architecture behavior nand_gate_tb is
+architecture behavior of nand_gate_tb is
     signal A : std_logic := '0';
     signal B : std_logic := '0';
     signal Y : std_logic;
