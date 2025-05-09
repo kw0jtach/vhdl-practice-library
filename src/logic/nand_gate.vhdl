@@ -1,7 +1,7 @@
 library ieee;
 use ieee.std_logic_1164.all;
 
-entity nandµ_gate is
+entity nand_gate is
     port(
         A : in std_logic;
         B : in std_logic;

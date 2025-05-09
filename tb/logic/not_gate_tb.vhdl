@@ -1,7 +1,7 @@
 library ieee;
 use ieee.std_logic_1164.all;
 
-entity not_gate tb is
+entity not_gate_tb is
 end not_gate_tb;
 
 architecture behavior of not_gate_tb is
