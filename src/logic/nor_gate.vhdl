@@ -7,7 +7,7 @@ entity nor_gate is
         B : in std_logic;
         Y : out std_logic
     );
-end nor_gate
+end nor_gate;
 
 architecture Behavioral of nor_gate is
 begin
