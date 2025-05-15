@@ -1,4 +1,4 @@
-MODULE=decoder_3to8
+MODULE=encoder_4to2
 DIR_SRC=src/logic
 DIR_TB=tb/logic
 VCD_FILE=sim/$(MODULE).vcd
