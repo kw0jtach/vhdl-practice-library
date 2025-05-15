@@ -1,4 +1,4 @@
-MODULE=mux_2to1
+MODULE=mux_4to1
 DIR_SRC=src/logic
 DIR_TB=tb/logic
 VCD_FILE=sim/$(MODULE).vcd
