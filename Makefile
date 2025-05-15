@@ -1,4 +1,4 @@
-MODULE=and_gate
+MODULE=mux_2to1
 DIR_SRC=src/logic
 DIR_TB=tb/logic
 VCD_FILE=sim/$(MODULE).vcd
@@ -6,8 +6,8 @@ VCD_FILE=sim/$(MODULE).vcd
 all: simulate
 
 analyze:
-	ghdl -a $(DIR_SRC)/$(MODULE).vhdl
-	ghdl -a $(DIR_TB)/$(MODULE)_tb.vhdl
+	ghdl -a $(DIR_SRC)/$(MODULE).vhd
+	ghdl -a $(DIR_TB)/$(MODULE)_tb.vhd
 
 elaborate:
 	ghdl -e $(MODULE)_tb
