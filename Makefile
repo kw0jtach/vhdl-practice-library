@@ -1,6 +1,6 @@
-MODULE=comparator_1bit
-DIR_SRC=src/logic
-DIR_TB=tb/logic
+MODULE=psipo
+DIR_SRC=src/sequential
+DIR_TB=tb/sequential
 VCD_FILE=sim/$(MODULE).vcd
 
 all: simulate

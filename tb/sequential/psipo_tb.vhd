@@ -77,4 +77,4 @@ begin
         wait for 50 ns;
     end process;
 
-end architecture psipo_tb;
+end behavior;

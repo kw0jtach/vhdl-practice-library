@@ -11,7 +11,7 @@ entity psipo is
         D : in std_logic_vector(N-1 downto 0);
         Q : out std_logic_vector(N-1 downto 0)
     );
-end psipo
+end psipo;
 
 architecture Behavioral of psipo is
     signal registers : std_logic_vector(N-1 downto 0);
