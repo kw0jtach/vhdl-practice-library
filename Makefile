@@ -1,4 +1,4 @@
-MODULE=psipo
+MODULE=siso
 DIR_SRC=src/sequential
 DIR_TB=tb/sequential
 VCD_FILE=sim/$(MODULE).vcd
@@ -14,7 +14,7 @@ elaborate:
 
 simulate: analyze elaborate
 	mkdir -p sim
-	ghdl -r $(MODULE)_tb --vcd=$(VCD_FILE) --stop-time=100ns
+	ghdl -r $(MODULE)_tb --vcd=$(VCD_FILE) --stop-time=300ns
 	@echo "Simulation completed. View waveform with:"
 	@echo " gtkwave $(VCD_FILE)"
 
